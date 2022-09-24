@@ -1,8 +1,8 @@
 .outerContainer{
     height: 100vh;
     width: 100vw;
-    background-image: url('https://media.istockphoto.com/photos/waves-abstract-white-background-picture-id1345012148?b=1&k=20&m=1345012148&s=170667a&w=0&h=TH6wSh-rvrHwKLQBBZCrEMDkWOK_QNt467EHRUfhW1U=');
-    background-size: cover;
+    /* background-image: url('https://media.istockphoto.com/photos/waves-abstract-white-background-picture-id1345012148?b=1&k=20&m=1345012148&s=170667a&w=0&h=TH6wSh-rvrHwKLQBBZCrEMDkWOK_QNt467EHRUfhW1U=');
+    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,35 @@
     border-radius: 9px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    align-items: center;
+    padding: 4vh 3vw;
+    opacity: 0.9;
+}
+
+.videoBackground{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.loginText{
+    font-weight:bold;
+    font-size: 24px;
+}
+
+.labelText{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inputField{
+    padding: 2vh 1vw;
+}
+
+.formBox{
+    width: 100%;
 }
 
 .inputBox{
@@ -24,4 +51,43 @@
     flex-direction: column;
     justify-content: left;
     align-items: left;
+    line-height: 7vh;
+}
+
+.eachInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    line-height: 4vh;
+}
+
+.forgotPasswordBox{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    color: #6F38C5;
+}
+
+.bottomBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signupButton{
+    width: 6.5vw;
+    height: 6.5vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+.signupButton:hover{
+    background-color: #06113C;
 }
