@@ -28,7 +28,7 @@
     z-index: -1;
 }
 
-.loginText{
+.loginText, .signupText {
     font-weight:bold;
     font-size: 24px;
 }
@@ -68,6 +68,9 @@
     align-items: right;
     color: #6F38C5;
 }
+.forgotPasswordBox :hover{
+    color: #400D51;
+}
 
 .bottomBox{
     display: flex;
@@ -75,9 +78,10 @@
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    margin-top: 3vh;
 }
 
-.signupButton{
+.signupButton, .loginButton{
     width: 6.5vw;
     height: 6.5vh;
     background-color: black;
@@ -89,5 +93,8 @@
 }
 
 .signupButton:hover{
+    background-color: #06113C;
+}
+.loginButton:hover{
     background-color: #06113C;
 }

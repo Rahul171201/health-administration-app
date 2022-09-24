@@ -16,7 +16,7 @@ export default function login() {
             </video>
 
             <div className={styles.innerContainer}>
-                <div className={styles.loginText}>Login</div>
+                <div className={styles.signupText}>Sign Up</div>
                 <form method='post' className={styles.formBox}>
                     <div className={styles.inputBox}>
                         <div className={styles.eachInput}>
@@ -27,20 +27,17 @@ export default function login() {
                             <label for='password' className={styles.labelText}><b>Password</b></label>
                             <input type="password" placeholder='Enter the password' name='password' className={styles.inputField}></input>
                         </div>
-                        <div className={styles.forgotPasswordBox}>
-                            <span><a href="#">Forgot password</a></span>
-                        </div>
                     </div>
                 </form>
                 <div className={styles.bottomBox}>
                     <GoogleLogin
                         clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
-                        buttonText="Login"
+                        buttonText="Sign Up"
                         onSuccess={responseGoogle}
                         onFailure={responseGoogle}
                         cookiePolicy={'single_host_origin'}
                     />
-                    <button className={styles.signupButton}>Sign Up</button>
+                    <button className={styles.loginButton}>Login</button>
 
                 </div>
             </div>
