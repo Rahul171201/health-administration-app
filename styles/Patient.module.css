@@ -1,0 +1,16 @@
+.mainBox{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profileBox{
+    width: 75vw;
+    height: 100vh;
+}
+
+.sidebarBox{
+    width: 25vw;
+    height: 100vh;
+}
+
