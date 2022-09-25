@@ -22,4 +22,11 @@
 .listItem{
     color: white;
     font-size: 20px;
+    cursor: pointer;
+    transition: font-size 1s ease-out 50ms;
+    transition-duration: 300ms;
+}
+
+.listItem:hover{
+    font-size: 28px;
 }

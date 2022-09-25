@@ -67,8 +67,12 @@
     justify-content: right;
     align-items: right;
     color: #6F38C5;
+    font-size: 14px;
+    transition: font-size 2s ease-out 100ms;
+    transition-duration: 1000ms;
 }
 .forgotPasswordBox :hover{
+    font-size: 16px;
     color: #400D51;
 }
 
