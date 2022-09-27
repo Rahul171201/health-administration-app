@@ -6,10 +6,10 @@ export default function patient() {
     return (
         <div className={styles.mainBox}>
             <div className={styles.profileBox}>
-                <Profile></Profile>
+                <Profile type="patient"></Profile>
             </div>
             <div className={styles.sidebarBox}>
-                <Sidebar></Sidebar>
+                <Sidebar type="patient"></Sidebar>
             </div>
         </div>
     )

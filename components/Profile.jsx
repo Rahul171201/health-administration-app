@@ -1,7 +1,7 @@
 import styles from '../styles/Profile.module.css';
 import Field from './Field';
 
-export default function Profile() {
+export default function Profile(props) {
     return (
         <div className={styles.mainBox}>
             <img src="rahul.jfif" alt="profile image" className={styles.profileImage} />
@@ -11,7 +11,7 @@ export default function Profile() {
             <div className={styles.nameBox}>
                 <div className={styles.nameBoxInner}>
                     <span className={styles.name}>Rahul Roy</span>
-                    <span className={styles.designation}>Patient</span>
+                    <span className={styles.designation}>{props.type}</span>
                 </div>
             </div>
             <div className={styles.fieldBox}>

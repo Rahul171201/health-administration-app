@@ -6,10 +6,10 @@ export default function helper() {
     return (
         <div className={styles.mainBox}>
             <div className={styles.profileBox}>
-                <Profile></Profile>
+                <Profile type="helper"></Profile>
             </div>
             <div className={styles.sidebarBox}>
-                <Sidebar></Sidebar>
+                <Sidebar type="helper"></Sidebar>
             </div>
         </div>
     )
