@@ -9,6 +9,7 @@ export default function Sidebar() {
         <ul className={styles.sidebarList}>
             <li className={styles.listItem}>Profile</li>
             <li className={styles.listItem}>Lab and Radiology</li>
+            <li className={styles.listItem}>Book Appointment</li>
             <li className={styles.listItem}>Admission</li>
             <li className={styles.listItem}>Payment</li>
         </ul>
