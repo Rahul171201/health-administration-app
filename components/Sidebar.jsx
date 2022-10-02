@@ -39,11 +39,11 @@ export default function Sidebar(props) {
         </div>
         <ul className={styles.sidebarList}>
           <li className={styles.listItem}>
-            <Link href="doctor">
+            <Link href="/doctor">
               <a>Profile</a>
             </Link>
           </li>
-          <li className={styzxxxxzzxles.listItem}>
+          <li className={styles.listItem}>
             <Link href="/doctor/lab">
               <a>Lab and Radiology</a>
             </Link>
