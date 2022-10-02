@@ -20,8 +20,16 @@ export default function Sidebar(props) {
               <a>Lab and Radiology</a>
             </Link>
           </li>
-          <li className={styles.listItem}>Book Appointment</li>
-          <li className={styles.listItem}>Admission</li>
+          <li className={styles.listItem}>
+            <Link href="/patient/book_appointment">
+              <a>Book Appointment</a>
+            </Link>
+          </li>
+          <li className={styles.listItem}>
+            <Link href="/patient/admission">
+              <a>Admission</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>
             <Link href="/patient/Payment">
               <a>Payment</a>
