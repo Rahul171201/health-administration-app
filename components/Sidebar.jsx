@@ -15,7 +15,11 @@ export default function Sidebar(props) {
               <a>Profile</a>
             </Link>
           </li>
-          <li className={styles.listItem}>Lab and Radiology</li>
+          <li className={styles.listItem}>
+            <Link href="/patient/lab">
+              <a>Lab and Radiology</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>Book Appointment</li>
           <li className={styles.listItem}>Admission</li>
           <li className={styles.listItem}>
@@ -39,7 +43,11 @@ export default function Sidebar(props) {
               <a>Profile</a>
             </Link>
           </li>
-          <li className={styzxxxxzzxles.listItem}>Lab and Radiology</li>
+          <li className={styzxxxxzzxles.listItem}>
+            <Link href="/doctor/lab">
+              <a>Lab and Radiology</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>Check Appointments</li>
           <li className={styles.listItem}>Patients Record</li>
         </ul>
@@ -58,7 +66,11 @@ export default function Sidebar(props) {
               <a>Profile</a>
             </Link>
           </li>
-          <li className={styles.listItem}>Lab and Radiology</li>
+          <li className={styles.listItem}>
+            <Link href="/helper/lab">
+              <a>Lab and Radiology</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>Check Allotment</li>
         </ul>
       </div>
