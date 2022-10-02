@@ -1,4 +1,5 @@
 import styles from '../styles/Sidebar.module.css';
+import Link from 'next/link';
 
 export default function Sidebar(props) {
 
@@ -6,14 +7,22 @@ export default function Sidebar(props) {
     return (
       <div className={styles.sideBar}>
         <div className={styles.loginBox}>
-          <img src="logo.jpeg" alt="logo" className={styles.logo}></img>
+          <img src="/logo.jpeg" alt="logo" className={styles.logo}></img>
         </div>
         <ul className={styles.sidebarList}>
-          <li className={styles.listItem}>Profile</li>
+          <li className={styles.listItem}>
+            <Link href="/patient">
+              <a>Profile</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>Lab and Radiology</li>
           <li className={styles.listItem}>Book Appointment</li>
           <li className={styles.listItem}>Admission</li>
-          <li className={styles.listItem}>Payment</li>
+          <li className={styles.listItem}>
+            <Link href="/patient/Payment">
+              <a>Payment</a>
+            </Link>
+          </li>
         </ul>
       </div>
     )
@@ -22,11 +31,15 @@ export default function Sidebar(props) {
     return (
       <div className={styles.sideBar}>
         <div className={styles.loginBox}>
-          <img src="logo.jpeg" alt="logo" className={styles.logo}></img>
+          <img src="/logo.jpeg" alt="logo" className={styles.logo}></img>
         </div>
         <ul className={styles.sidebarList}>
-          <li className={styles.listItem}>Profile</li>
-          <li className={styles.listItem}>Lab and Radiology</li>
+          <li className={styles.listItem}>
+            <Link href="doctor">
+              <a>Profile</a>
+            </Link>
+          </li>
+          <li className={styzxxxxzzxles.listItem}>Lab and Radiology</li>
           <li className={styles.listItem}>Check Appointments</li>
           <li className={styles.listItem}>Patients Record</li>
         </ul>
@@ -37,10 +50,14 @@ export default function Sidebar(props) {
     return (
       <div className={styles.sideBar}>
         <div className={styles.loginBox}>
-          <img src="logo.jpeg" alt="logo" className={styles.logo}></img>
+          <img src="/logo.jpeg" alt="logo" className={styles.logo}></img>
         </div>
         <ul className={styles.sidebarList}>
-          <li className={styles.listItem}>Profile</li>
+          <li className={styles.listItem}>
+            <Link href="/helper">
+              <a>Profile</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>Lab and Radiology</li>
           <li className={styles.listItem}>Check Allotment</li>
         </ul>
