@@ -13,3 +13,47 @@
     width: 25vw;
     height: 100vh;
 }
+
+.outerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+.listItem{
+    width: 50vw;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #9CFF2E;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.headbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notificationIcon{
+    font-size: 28px;
+    margin-left: 20vw;
+}
+
+.horizontalRule{
+    width: 45vw;
+    background-color: black;
+    height: 2px;
+}

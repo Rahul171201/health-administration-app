@@ -58,6 +58,11 @@ export default function Sidebar(props) {
           </li>
           <li className={styles.listItem}>Check Appointments</li>
           <li className={styles.listItem}>Patients Record</li>
+          <li className={styles.listItem}>
+            <Link href="/doctor/notification">
+              <a>Notifications</a>
+            </Link>
+          </li>
         </ul>
       </div>
     )
@@ -80,6 +85,11 @@ export default function Sidebar(props) {
             </Link>
           </li>
           <li className={styles.listItem}>Check Allotment</li>
+          <li className={styles.listItem}>
+            <Link href="/helper/notification">
+              <a>Notifications</a>
+            </Link>
+          </li>
         </ul>
       </div>
     )
