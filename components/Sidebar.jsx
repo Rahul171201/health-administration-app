@@ -26,7 +26,7 @@ export default function Sidebar(props) {
             </Link>
           </li>
           <li className={styles.listItem}>
-            <Link href="/patient/admission">
+            <Link href="/patient/notifications">
               <a>Admission</a>
             </Link>
           </li>
