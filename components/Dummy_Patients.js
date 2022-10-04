@@ -9,7 +9,7 @@ const patientRecords = [
         name: "Rahul Roy",
         appointment_date: "02-11-2022",
         status: 0,
-        description: "The patient is suffering from high fever and reddish itches on the sides of the arms and thighs. The problem is also associated with frequent sleep breaks.",
+        description: "The patient is suffering from reddish itches on the sides of the arms and thighs. The problem is also associated with frequent sleep breaks.",
         type: "patient",
         fees: 2000,
         isAdmitted: false,

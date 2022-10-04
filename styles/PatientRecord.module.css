@@ -37,7 +37,7 @@
 
 .listItem{
     width: 30vw;
-    height: min-content;
+    height: 50vh;
     border: 1px solid;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,11 @@
     padding: 20px 1vw;
     border-radius: 7px;
     cursor: pointer;
+    transition: width 1s ease-out 50ms;
+    transition-duration: 300ms;
+}
+.listItem:hover{
+    width: 32vw;
 }
 
 .lastRow{
@@ -71,7 +76,7 @@
 }
 
 .infoBar{
-    width: 30%;
+    width: 18vw;
     height: min-content;
     display: flex;
     flex-direction: column;
@@ -87,7 +92,8 @@
 }
 
 .description{
-    width: 60%;
+    width: 10vw;
+    height: min-content;
 }
 
 .profilePic{

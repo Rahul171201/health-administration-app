@@ -30,7 +30,7 @@
 
 .listItem{
     width: 50vw;
-    height: min-content;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,10 +38,23 @@
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #9CFF2E;
+    background-color: #DD5353;
     border-radius: 7px;
     margin-bottom: 20px;
     cursor: pointer;
+    color: white;
+    transition: width height 1s ease-out 50ms;
+    transition-duration: 300ms;
+}
+
+.listItem:hover{
+    width: 53vw;
+    height: 42vh;
+}
+
+.description{
+    width: 45vw;
+    height: min-content;
 }
 
 .headbar{

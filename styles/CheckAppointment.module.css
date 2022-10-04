@@ -39,7 +39,7 @@
 
 .listItem{
     width: 35vw;
-    height: min-content;
+    height: 40vh;
     border: 1px solid;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,11 @@
     background-color: #2192FF;
     border-radius: 7px;
     cursor: pointer;
+    transition: width 1s ease-out 50ms;
+    transition-duration: 300ms;
+}
+.listItem:hover{
+    width: 36vw;
 }
 
 .topBar{
@@ -65,7 +70,8 @@
 }
 
 .description{
-    width: 60%;
+    width: 15vw;
+    height: min-content;
 }
 
 .profilePic{
