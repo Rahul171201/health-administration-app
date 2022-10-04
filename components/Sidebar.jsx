@@ -56,8 +56,16 @@ export default function Sidebar(props) {
               <a>Lab and Radiology</a>
             </Link>
           </li>
-          <li className={styles.listItem}>Check Appointments</li>
-          <li className={styles.listItem}>Patients Record</li>
+          <li className={styles.listItem}>
+          <Link href="/doctor/check_appointment">
+              <a>Check Appointments</a>
+            </Link>
+          </li>
+          <li className={styles.listItem}>
+          <Link href="/doctor/patient_record">
+              <a>Patient Records</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>
             <Link href="/doctor/notification">
               <a>Notifications</a>
