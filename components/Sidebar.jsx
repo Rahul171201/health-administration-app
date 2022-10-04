@@ -57,12 +57,12 @@ export default function Sidebar(props) {
             </Link>
           </li>
           <li className={styles.listItem}>
-          <Link href="/doctor/check_appointment">
+            <Link href="/doctor/check_appointment">
               <a>Check Appointments</a>
             </Link>
           </li>
           <li className={styles.listItem}>
-          <Link href="/doctor/patient_record">
+            <Link href="/doctor/patient_record">
               <a>Patient Records</a>
             </Link>
           </li>
@@ -92,7 +92,11 @@ export default function Sidebar(props) {
               <a>Lab and Radiology</a>
             </Link>
           </li>
-          <li className={styles.listItem}>Check Allotment</li>
+          <li className={styles.listItem}>
+            <Link href="/helper/check_allotment">
+              <a>Check Allotment</a>
+            </Link>
+          </li>
           <li className={styles.listItem}>
             <Link href="/helper/notification">
               <a>Notifications</a>
