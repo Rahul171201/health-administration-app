@@ -5,7 +5,7 @@ import { IoIosNotifications } from 'react-icons/io';
 export default function Notification() {
   return (
     <div className={styles.outerContainer}>
-        <div className={styles.listItem}>
+        <div className={`${styles.listItem} ${styles.id1}`}>
             <div className={styles.headbar}>
                 <h2>Dr.Oberoi on leave</h2>
                 <IoIosNotifications className={styles.notificationIcon}></IoIosNotifications>

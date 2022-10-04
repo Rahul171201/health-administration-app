@@ -5,7 +5,7 @@ export default function check_appointment() {
     return (
         <div className={styles.mainBox}>
             <div className={styles.appointmentBox}>
-                <div className={styles.row}>
+                <div className={`${styles.row} ${styles.topRow}`}>
                     <div className={styles.listItem}>
                         <div className={styles.topBar}>
                             <img src="/rahul.jfif" alt="profile_pic" className={styles.profilePic}></img>
