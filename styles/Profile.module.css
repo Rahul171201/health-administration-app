@@ -23,6 +23,7 @@
     position: absolute;
     z-index: 1;
     margin-left: 3vw;
+    margin-top: 10px;
 }
 
 .nameBox{
