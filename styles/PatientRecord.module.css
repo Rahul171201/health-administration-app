@@ -4,12 +4,9 @@
     height: 100vh;
 }
 
-.appointmentBox{
+.recordBox{
     width: 75vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
     overflow-y: auto;
     color: white;
 }
@@ -17,6 +14,10 @@
 .sidebarBox{
     width: 25vw;
     height: 100vh;
+}
+
+.topRow{
+    margin-top: 40px;
 }
 
 .row{
@@ -30,14 +31,14 @@
 }
 
 .listItem{
-    width: 35vw;
+    width: 30vw;
     height: min-content;
     border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 1vw;
-    background-color: #2192FF;
+    background-color: #DD5353;
     border-radius: 7px;
     cursor: pointer;
 }
@@ -46,6 +47,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.infoBar{
+    width: 30%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
