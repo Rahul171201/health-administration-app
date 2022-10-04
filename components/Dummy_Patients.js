@@ -28,8 +28,8 @@ const patientRecords = [
         fees: 4000,
         isAdmitted: true,
         helperAssigned: true,
-        profilePic: "/rahul.jfif",
-        email: "rahul@gmail.com",
+        profilePic: "/navneet.jpg",
+        email: "navneet@gmail.com",
         password: "123"
     },
     {
@@ -42,8 +42,8 @@ const patientRecords = [
         fees: 4500,
         isAdmitted: false,
         helperAssigned: false,
-        profilePic: "/rahul.jfif",
-        email: "rahul@gmail.com",
+        profilePic: "/vinit.jpg",
+        email: "vinit@gmail.com",
         password: "123"
     },
     {
@@ -56,8 +56,8 @@ const patientRecords = [
         fees: 3000,
         isAdmitted: false,
         helperAssigned: false,
-        profilePic: "/rahul.jfif",
-        email: "rahul@gmail.com",
+        profilePic: "/nischay.jpg",
+        email: "nischay@gmail.com",
         password: "123"
     },
     {
@@ -70,8 +70,8 @@ const patientRecords = [
         fees: 4000,
         isAdmitted: false,
         helperAssigned: true,
-        profilePic: "/rahul.jfif",
-        email: "rahul@gmail.com",
+        profilePic: "/anshuman.jpg",
+        email: "anshuman@gmail.com",
         password: "123"
     },
     {
@@ -84,8 +84,8 @@ const patientRecords = [
         fees: 3000,
         isAdmitted: false,
         helperAssigned: false,
-        profilePic: "/rahul.jfif",
-        email: "rahul@gmail.com",
+        profilePic: "/gaurav.jpg",
+        email: "gaurav@gmail.com",
         password: "123"
     },
     {
@@ -98,8 +98,8 @@ const patientRecords = [
         fees: 2000,
         isAdmitted: false,
         helperAssigned: false,
-        profilePic: "/rahul.jfif",
-        email: "rahul@gmail.com",
+        profilePic: "/tejas.jpg",
+        email: "tejas@gmail.com",
         password: "123"
     }
 ]

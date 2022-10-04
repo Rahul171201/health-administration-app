@@ -71,6 +71,7 @@
     background-color: #083AA9;
     transition: width 1s ease-out 50ms;
     transition-duration: 300ms;
+    cursor: pointer;
 }
 
 .listItem:hover{
