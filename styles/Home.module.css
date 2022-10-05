@@ -1,9 +1,9 @@
 .mainContainer{
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+
   align-items: center;
+  overflow-y: auto;
 }
 .navbar{
   display: flex;
@@ -129,3 +129,61 @@
   font-size: 16px;
   background-color: white;
 }
+
+.bottomContainer{
+  width: 100%;
+  height: 500px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #D800A6;
+}
+
+.bottomItem{
+  width: 30%;
+  height: 400px;
+  border: 1px solid;
+  background-color: white;
+  padding: 0px 5px;
+}
+
+.headBar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon{
+  margin-right: 10px;
+}
+
+.horizontalLine{
+  width: 95%;
+  height: 1px;
+  border: 1px solid;
+}
+
+.description{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
