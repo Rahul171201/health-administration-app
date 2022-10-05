@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css';
 import { BsFillHeartFill } from 'react-icons/bs';
 import { TbEmergencyBed } from 'react-icons/tb';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -16,8 +17,21 @@ export default function Home() {
           <img src='logo.jpeg' alt='logo' className={styles.logo}></img>
         </div>
         <div className={styles.navList} >
-          <button className={styles.loginButton}>LOG IN</button>
-          <button className={styles.signupButton}>SIGN UP</button>
+          <Link href="/login">
+            <a>
+              <button className={styles.loginButton}>
+                LOG IN
+              </button>
+            </a>
+          </Link>
+
+          <Link href="/register">
+            <a>
+              <button className={styles.signupButton}>
+                SIGN UP
+              </button>
+            </a>
+          </Link>
         </div>
       </div>
       <div className={styles.middleContainer}>

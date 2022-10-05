@@ -1,5 +1,6 @@
 import styles from '../styles/LoginAndRegister.module.css';
 import { GoogleLogin } from 'react-google-login';
+import Link from 'next/link';
 
 
 export default function login() {
@@ -37,8 +38,12 @@ export default function login() {
                         onFailure={responseGoogle}
                         cookiePolicy={'single_host_origin'}
                     />
-                    <button className={styles.loginButton}>Login</button>
-
+                    <Link href="/login">
+                        <a>
+                        <button className={styles.loginButton}>Login</button>
+                        </a>
+                    </Link>
+                
                 </div>
             </div>
         </div>
