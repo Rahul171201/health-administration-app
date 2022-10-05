@@ -1,15 +1,25 @@
 .mainBox{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 96vh;
 }
 
 .checkBox{
     width: 75vw;
     height: 100vh;
+    background-color: #D58BDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebarBox{
     width: 25vw;
     height: 100vh;
+}
+
+.text{
+    background-color: #905E96;
+    color: white;
+    padding: 2vh 1vw;
 }

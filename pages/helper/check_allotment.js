@@ -5,9 +5,7 @@ export default function check_allotment() {
     return (
         <div className={styles.mainBox}>
             <div className={styles.checkBox}>
-                <div className={styles.listItem}>
-                    check CheckAllotment
-                </div>
+                <h1 className={styles.text}>You have no recent allotments</h1>
             </div>
             <div className={styles.sidebarBox}>
                 <Sidebar type="helper"></Sidebar>
