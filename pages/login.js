@@ -31,6 +31,7 @@ export default function login() {
                         <div className={styles.forgotPasswordBox}>
                             <span><a href="#">Forgot password</a></span>
                         </div>
+                        <button type='submit' className={styles.continueButton}>Continue</button>
                     </div>
                 </form>
                 <div className={styles.bottomBox}>

@@ -28,6 +28,7 @@ export default function login() {
                             <label for='password' className={styles.labelText}><b>Password</b></label>
                             <input type="password" placeholder='Enter the password' name='password' className={styles.inputField}></input>
                         </div>
+                        <button type='submit' className={styles.continueButton}>Continue</button>
                     </div>
                 </form>
                 <div className={styles.bottomBox}>

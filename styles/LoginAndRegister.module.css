@@ -102,3 +102,10 @@
 .loginButton:hover{
     background-color: #06113C;
 }
+
+.continueButton{
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
