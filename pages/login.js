@@ -1,12 +1,28 @@
 import styles from '../styles/LoginAndRegister.module.css';
 import { GoogleLogin } from 'react-google-login';
+import { useRouter } from 'next/router'
 import Link from 'next/link';
+import users from '../components/Dummy_users';
 
 
 export default function login() {
 
+    const router = useRouter();
+
     const responseGoogle = (response) => {
         console.log(response);
+    }
+
+    function handleSubmit(e){
+        e.preventDefault();
+        const email = e.target[0].value;
+        const password = e.target[1].value;
+        users.forEach((item) => {
+            if(item.email === email && item.password === password){
+                const url = '/' + item.type;
+                router.push(url);
+            }
+        });
     }
 
     return (
@@ -18,7 +34,7 @@ export default function login() {
 
             <div className={styles.innerContainer}>
                 <div className={styles.loginText}>Login</div>
-                <form method='post' className={styles.formBox}>
+                <form method='post' onSubmit={handleSubmit} className={styles.formBox}>
                     <div className={styles.inputBox}>
                         <div className={styles.eachInput}>
                             <label for='email' className={styles.labelText}><b>Email</b></label>
@@ -31,8 +47,9 @@ export default function login() {
                         <div className={styles.forgotPasswordBox}>
                             <span><a href="#">Forgot password</a></span>
                         </div>
-                        <button type='submit' className={styles.continueButton}>Continue</button>
+                        <button type='submit' className={styles.continueButton} >Continue</button>
                     </div>
+                   
                 </form>
                 <div className={styles.bottomBox}>
                     <GoogleLogin

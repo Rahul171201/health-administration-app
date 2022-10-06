@@ -144,8 +144,9 @@
   width: 30%;
   height: 400px;
   border: 1px solid;
-  background-color: white;
+  background-color: black;
   padding: 0px 5px;
+  color: white;
 }
 
 .headBar{

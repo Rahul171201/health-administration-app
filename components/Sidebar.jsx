@@ -35,6 +35,11 @@ export default function Sidebar(props) {
               <a>Notifications</a>
             </Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/login">
+              <a>Log Out</a>
+            </Link>
+          </li>
         </ul>
       </div>
     )
@@ -71,6 +76,11 @@ export default function Sidebar(props) {
               <a>Notifications</a>
             </Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/login">
+              <a>Log Out</a>
+            </Link>
+          </li>
         </ul>
       </div>
     )
@@ -100,6 +110,11 @@ export default function Sidebar(props) {
           <li className={styles.listItem}>
             <Link href="/helper/notification">
               <a>Notifications</a>
+            </Link>
+          </li>
+          <li className={styles.listItem}>
+            <Link href="/login">
+              <a>Log Out</a>
             </Link>
           </li>
         </ul>
